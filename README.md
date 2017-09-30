@@ -86,7 +86,7 @@ func main() {
             time.Sleep(time.Duration(rand.Int() % 1000 * 1000000))
             //
 
-            // Next time slice will be added to the bottleneck with index 0. d
+            // Next time slice will be added to the bottleneck with index 0.
             bc.TimeSlice(bottleneck.Index0)
         }
     }()

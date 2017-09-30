@@ -37,7 +37,7 @@ func main() {
 			// Do complex job (2). It's 2 times longer than job (1).
 			time.Sleep(time.Duration(rand.Int() % 1000 * 1000000))
 
-			// Next time slice will be added to the bottleneck with index 0. d
+			// Next time slice will be added to the bottleneck with index 0.
 			bc.TimeSlice(bottleneck.Index0)
 		}
 	}()
