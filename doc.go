@@ -1,6 +1,5 @@
 /*
-
-Package `bottleneck` allows do detect bottlenecks in your code. Packages uses `atomic` to minimize impact on performance. Bottleneck info returning by `Stats` function is eventually consistent.
+Package bottleneck allows do detect bottlenecks in your code. Package uses atomic to minimize impact on performance. Bottleneck info returning by `Stats` function is eventually consistent.
 
 Which operation takes more time?
 
@@ -126,7 +125,5 @@ A fragment of output:
 	j1: 0.545%, 1.644750924s, 5 calls | j2: 0.455%, 1.374261959s, 4 calls
 	j1: 0.527%, 1.644750924s, 5 calls | j2: 0.473%, 1.474492000s, 4 calls
 	j1: 0.527%, 1.698508948s, 5 calls | j2: 0.473%, 1.521447279s, 5 calls
-
 */
-
 package bottleneck

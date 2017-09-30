@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/ssgreg/bottleneck.svg?branch=master)](https://travis-ci.org/ssgreg/bottleneck)
 [![Go Report Status](https://goreportcard.com/badge/github.com/ssgreg/bottleneck)](https://goreportcard.com/report/github.com/ssgreg/bottleneck)
 
-Package `bottleneck` allows do detect bottlenecks in your code. Packages uses `atomic` to minimize impact on performance. Bottleneck info returning by `Stats` function is eventually consistent.
+Package `bottleneck` allows do detect bottlenecks in your code. Package uses `atomic` to minimize impact on performance. Bottleneck info returning by `Stats` function is eventually consistent.
 
 ## Example
 
