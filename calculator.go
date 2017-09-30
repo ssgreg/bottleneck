@@ -10,7 +10,6 @@ type Entry struct {
 	Duration   time.Duration
 	CallCount  int64
 	Percentage float64
-	timestamp  time.Duration
 }
 
 // Index describes a concrete bottleneck entry.
